@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+/*Main css*/
+.header-part {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #c4c9cc;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.default {
+    margin-left: 27px;
+    margin-top: 11px;
+}
+.default ul {
+    list-style: none;
+}
+.default ul li {
+    display: inline-block;
+    font-size: 60px;
+}
+.default ul li:nth-child(1){
+    color: limegreen;
+    font-weight: 500;
+}
+.default ul li:nth-child(2){
+    color: red;
+    font-weight: 500;
+
+}
+.default ul li:nth-child(3){
+    color: rgb(231, 231, 42);
+    font-weight: 500;
+
+}
+.default ul li:nth-child(4){
+    color: limegreen;
+    font-weight: 500;
+
+}
+.default ul li:nth-child(5){
+    color: green;
+    font-weight: 500;
+
+}
+.default ul li:nth-child(6){
+    color: red;
+    font-weight: 500;
+
+}
+.header {
+    width: 800px;
+    margin: auto;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+.header-top{
+    margin-left: 23px;
+}
+.h-text h3 {
+    margin-top: 36px;
+    font-size: 36px;
+    font-weight: 400;
+    color: midnightblue;
+    margin-bottom: 32px;
+}
+input.f-name {
+    margin-right: 19px;
+}
+.h-form input {
+    padding: 9px 8px;
+    font-size: 16px;
+    width: 210px;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 6px;
+}
+input.email {
+    width: 461px;
+    margin-top: 27px;
+    text-align: right;
+}
+.h-form p {
+    margin-top: 6px;;
+}
+a.instead {
+    display: block;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+p.p-text {
+    margin-top: 16px;
+}
+i.fa.fa-eye-slash.icon {
+    font-size: 23px;
+    color: #767676;
+}
+.button {
+    margin-top: 63px;
+    margin-bottom: 45px;
+}
+a.btn1 {
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 261px;
+}
+a.btn1:hover{
+    background: #f7f9ff;
+    text-decoration: underline;
+}
+a.btn2 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 31px;
+    background: blue;
+    border-radius: 6px;
+    color: white;
+    transition: .5s;
+}
+a.btn2:hover{
+    background: black;
+}
+select {
+    border: none;
+}
+.f-menu a {
+    padding: 0 8px;
+}
+.f-menu a:hover{
+    text-decoration: underline;
+}
